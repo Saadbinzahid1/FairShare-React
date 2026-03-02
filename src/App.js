@@ -96,7 +96,7 @@ export default function App() {
 }
 
 function Logo() {
-  return <img src="logo.png" className="logo" />;
+  return <img src="logo.png" alt="Logo" className="logo" />;
 }
 
 function FriendsList({ friends, selectedFriend, onSelection }) {
@@ -119,7 +119,7 @@ function Friend({ friend, selectedFriend, onSelection }) {
 
   return (
     <li className={isSelected ? "selected" : ""}>
-      <img src={friend.image} />
+      <img src={friend.image} alt={friend.name} />
       <h3>{friend.name}</h3>
       {friend.balance < 0 && (
         <p className="red">

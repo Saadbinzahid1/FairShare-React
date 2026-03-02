@@ -34,6 +34,12 @@ body {
   align-items: start;
 }
 
+.logo {
+  width: 200px;
+  margin: 0 auto 48px auto;
+  display: block;
+}
+
 .button {
   background-color: var(--color-medium);
   color: #fff;

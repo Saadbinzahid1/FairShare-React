@@ -7,7 +7,7 @@ It allows users to add friends, record shared expenses, and instantly calculate 
 
 ## 🌐 Live Preview
 
-<!-- [Live Demo](https://timespizzamenu.netlify.app) -->
+[Live Demo](https://fairsharereact.netlify.app)
 
 ---
 
